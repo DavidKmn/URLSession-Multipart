@@ -12,9 +12,24 @@
 		6346BC0720AF6D5B008D1B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6346BC0520AF6D5B008D1B15 /* Main.storyboard */; };
 		6346BC0920AF6D5C008D1B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6346BC0820AF6D5C008D1B15 /* Assets.xcassets */; };
 		6346BC0C20AF6D5C008D1B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6346BC0A20AF6D5C008D1B15 /* LaunchScreen.storyboard */; };
+		636388C420B4B1880012235E /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636388C320B4B1880012235E /* Media.swift */; };
+		636388C620B4B1A50012235E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636388C520B4B1A50012235E /* User.swift */; };
+		636388C820B4B1AE0012235E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636388C720B4B1AE0012235E /* Company.swift */; };
+		636388CA20B4B27D0012235E /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636388C920B4B27D0012235E /* Address.swift */; };
+		636388CE20B4B39A0012235E /* ViewController+URLSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636388CD20B4B39A0012235E /* ViewController+URLSessionDelegate.swift */; };
+		639C659F20B1FDAE00624216 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C659E20B1FDAE00624216 /* AlamofireViewController.swift */; };
+		639C65A120B36B4200624216 /* AFAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C65A020B36B4200624216 /* AFAPIClient.swift */; };
+		639C65A320B36B6E00624216 /* MediaUploadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C65A220B36B6E00624216 /* MediaUploadRequest.swift */; };
+		639C65A720B36BD800624216 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C65A620B36BD800624216 /* Photo.swift */; };
+		639C65A920B36BF700624216 /* ImgurResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C65A820B36BF700624216 /* ImgurResponse.swift */; };
+		639C65AB20B36C1F00624216 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C65AA20B36C1F00624216 /* NetworkError.swift */; };
+		639C65AE20B36C7100624216 /* HTTPRequestRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C65AD20B36C7100624216 /* HTTPRequestRepresentable.swift */; };
+		86253B2A2AE656CFB640CEE2 /* Pods_URLSession_MultipartFD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9F9C80E23A0ED06EA96AFC /* Pods_URLSession_MultipartFD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E9F9C80E23A0ED06EA96AFC /* Pods_URLSession_MultipartFD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLSession_MultipartFD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49ED1F4E0C26428C6419A939 /* Pods-URLSession:MultipartFD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLSession:MultipartFD.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLSession:MultipartFD/Pods-URLSession:MultipartFD.release.xcconfig"; sourceTree = "<group>"; };
 		6346BBFE20AF6D5B008D1B15 /* URLSession:MultipartFD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URLSession:MultipartFD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6346BC0120AF6D5B008D1B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6346BC0320AF6D5B008D1B15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,19 @@
 		6346BC0820AF6D5C008D1B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6346BC0B20AF6D5C008D1B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6346BC0D20AF6D5C008D1B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636388C320B4B1880012235E /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		636388C520B4B1A50012235E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		636388C720B4B1AE0012235E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		636388C920B4B27D0012235E /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		636388CD20B4B39A0012235E /* ViewController+URLSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+URLSessionDelegate.swift"; sourceTree = "<group>"; };
+		639C659E20B1FDAE00624216 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
+		639C65A020B36B4200624216 /* AFAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFAPIClient.swift; sourceTree = "<group>"; };
+		639C65A220B36B6E00624216 /* MediaUploadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaUploadRequest.swift; sourceTree = "<group>"; };
+		639C65A620B36BD800624216 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		639C65A820B36BF700624216 /* ImgurResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurResponse.swift; sourceTree = "<group>"; };
+		639C65AA20B36C1F00624216 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		639C65AD20B36C7100624216 /* HTTPRequestRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestRepresentable.swift; sourceTree = "<group>"; };
+		684AD1E848F6020552FDBD3D /* Pods-URLSession:MultipartFD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLSession:MultipartFD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLSession:MultipartFD/Pods-URLSession:MultipartFD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86253B2A2AE656CFB640CEE2 /* Pods_URLSession_MultipartFD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14455BC170D26DBEF7F3A688 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				684AD1E848F6020552FDBD3D /* Pods-URLSession:MultipartFD.debug.xcconfig */,
+				49ED1F4E0C26428C6419A939 /* Pods-URLSession:MultipartFD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46C06615329E287BB1ACCAE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E9F9C80E23A0ED06EA96AFC /* Pods_URLSession_MultipartFD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6346BBF520AF6D5A008D1B15 = {
 			isa = PBXGroup;
 			children = (
 				6346BC0020AF6D5B008D1B15 /* URLSession:MultipartFD */,
 				6346BBFF20AF6D5B008D1B15 /* Products */,
+				14455BC170D26DBEF7F3A688 /* Pods */,
+				46C06615329E287BB1ACCAE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +103,57 @@
 			isa = PBXGroup;
 			children = (
 				6346BC0120AF6D5B008D1B15 /* AppDelegate.swift */,
-				6346BC0320AF6D5B008D1B15 /* ViewController.swift */,
+				636388CC20B4B33C0012235E /* URLSession */,
+				636388C220B4B1600012235E /* Alamofire */,
 				6346BC0520AF6D5B008D1B15 /* Main.storyboard */,
 				6346BC0820AF6D5C008D1B15 /* Assets.xcassets */,
 				6346BC0A20AF6D5C008D1B15 /* LaunchScreen.storyboard */,
 				6346BC0D20AF6D5C008D1B15 /* Info.plist */,
 			);
 			path = "URLSession:MultipartFD";
+			sourceTree = "<group>";
+		};
+		636388C220B4B1600012235E /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				639C659E20B1FDAE00624216 /* AlamofireViewController.swift */,
+				639C65A820B36BF700624216 /* ImgurResponse.swift */,
+				639C65AD20B36C7100624216 /* HTTPRequestRepresentable.swift */,
+				639C65A020B36B4200624216 /* AFAPIClient.swift */,
+				639C65A220B36B6E00624216 /* MediaUploadRequest.swift */,
+				639C65AA20B36C1F00624216 /* NetworkError.swift */,
+				639C65AC20B36C4C00624216 /* Model */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		636388CB20B4B2F00012235E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				636388C520B4B1A50012235E /* User.swift */,
+				636388C720B4B1AE0012235E /* Company.swift */,
+				636388C920B4B27D0012235E /* Address.swift */,
+				636388C320B4B1880012235E /* Media.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		636388CC20B4B33C0012235E /* URLSession */ = {
+			isa = PBXGroup;
+			children = (
+				6346BC0320AF6D5B008D1B15 /* ViewController.swift */,
+				636388CD20B4B39A0012235E /* ViewController+URLSessionDelegate.swift */,
+				636388CB20B4B2F00012235E /* Model */,
+			);
+			path = URLSession;
+			sourceTree = "<group>";
+		};
+		639C65AC20B36C4C00624216 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				639C65A620B36BD800624216 /* Photo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6346BC1020AF6D5C008D1B15 /* Build configuration list for PBXNativeTarget "URLSession:MultipartFD" */;
 			buildPhases = (
+				F2026963599F92A42D940149 /* [CP] Check Pods Manifest.lock */,
 				6346BBFA20AF6D5A008D1B15 /* Sources */,
 				6346BBFB20AF6D5A008D1B15 /* Frameworks */,
 				6346BBFC20AF6D5A008D1B15 /* Resources */,
+				EB7F33EB3211CE8AA0F46697 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +224,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EB7F33EB3211CE8AA0F46697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-URLSession:MultipartFD/Pods-URLSession:MultipartFD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLSession:MultipartFD/Pods-URLSession:MultipartFD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2026963599F92A42D940149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLSession:MultipartFD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6346BBFA20AF6D5A008D1B15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639C65A920B36BF700624216 /* ImgurResponse.swift in Sources */,
+				639C65AB20B36C1F00624216 /* NetworkError.swift in Sources */,
+				636388CA20B4B27D0012235E /* Address.swift in Sources */,
+				639C65A720B36BD800624216 /* Photo.swift in Sources */,
+				636388CE20B4B39A0012235E /* ViewController+URLSessionDelegate.swift in Sources */,
 				6346BC0420AF6D5B008D1B15 /* ViewController.swift in Sources */,
+				636388C420B4B1880012235E /* Media.swift in Sources */,
+				639C659F20B1FDAE00624216 /* AlamofireViewController.swift in Sources */,
+				639C65AE20B36C7100624216 /* HTTPRequestRepresentable.swift in Sources */,
+				639C65A320B36B6E00624216 /* MediaUploadRequest.swift in Sources */,
 				6346BC0220AF6D5B008D1B15 /* AppDelegate.swift in Sources */,
+				639C65A120B36B4200624216 /* AFAPIClient.swift in Sources */,
+				636388C620B4B1A50012235E /* User.swift in Sources */,
+				636388C820B4B1AE0012235E /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +427,7 @@
 		};
 		6346BC1120AF6D5C008D1B15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684AD1E848F6020552FDBD3D /* Pods-URLSession:MultipartFD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +446,7 @@
 		};
 		6346BC1220AF6D5C008D1B15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49ED1F4E0C26428C6419A939 /* Pods-URLSession:MultipartFD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
